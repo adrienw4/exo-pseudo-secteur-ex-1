@@ -79,3 +79,33 @@ a:nth-child(1):before{
   a:nth-child(5):after{
     content:" <- ";
   }
+  #gameOfTheYear{
+    width: 100%;
+    border: 1px solid red ;
+    padding: 8px;
+    
+  }
+  th {
+   border: 1px solid black;
+   
+  }
+
+tbody td {
+  text-align: center;
+}
+
+tr:nth-child(even){
+background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: rgb(14, 148, 126);
+    }
+tr:hover{
+    background-color: blueviolet;
+}
+th{
+    padding:12px 0px ;
+}
+tr {
+    padding:8px 8px;
+}
